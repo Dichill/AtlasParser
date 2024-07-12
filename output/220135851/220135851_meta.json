@@ -1,0 +1,132 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "toc": [
+        {
+            "title": "MarCO: Early Operations of the First CubeSats to Mars",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                70.0,
+                690.0,
+                0.0
+            ]
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                70.0,
+                596.0,
+                0.0
+            ]
+        },
+        {
+            "title": "Introduction",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                70.0,
+                405.0,
+                0.0
+            ]
+        },
+        {
+            "title": "Deployment",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                313.0,
+                376.0,
+                0.0
+            ]
+        },
+        {
+            "title": "Trajectory Correction Maneuvers",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                313.0,
+                141.0,
+                0.0
+            ]
+        },
+        {
+            "title": "Cruise Phase",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                313.0,
+                597.0,
+                0.0
+            ]
+        },
+        {
+            "title": "Conclusions",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 1,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                70.0,
+                505.0,
+                0.0
+            ]
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                70.0,
+                154.0,
+                0.0
+            ]
+        }
+    ],
+    "pages": 6,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 18,
+        "code": 0,
+        "table": 0,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

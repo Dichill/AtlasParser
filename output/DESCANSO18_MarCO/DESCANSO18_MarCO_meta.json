@@ -1,0 +1,1016 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "toc": [
+        {
+            "title": "DESCANSO DESIGN AND PERFORMANCE SUMMARY SERIES: MARS CUBE ONE TELECOMMUNICATIONS SUBSYSTEM DESIGN; M Michael Kobayashi, Mazen Shibahi, and Jim Taylor",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 17,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -193.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "The Cover",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "Inside Cover",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "Copyright",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "Published Articles in This Series",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "Foreword",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "Preface",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 10,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "Table of Contents",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "List of Figures",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "List of Tables",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "1 MISSION DESCRIPTION",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 3,
+            "page_index": 17,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "1.1 Project and Mission Objectives",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 3,
+            "page_index": 20,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "1.1.1 Level 1 Project Requirements",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 20,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "1.1.2 Technology Demonstration Goals",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "1.1.3 Other Important MarCO Objectives",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "1.2 InSight Mission Overview",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "1.2.1 InSight Science Goals",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 22,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "1.2.2 InSight\u2019s Investigations and Corresponding Instruments",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 22,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "1.3 MarCO Mission Phases",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 5,
+            "page_index": 23,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "1.3.1 Launch, Deployment, and Initial Acquisition Phase",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 23,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "1.3.2 Cruise Phase",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 24,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "1.3.3 Approach Phase",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 26,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "1.3.4 Mars Encounter and Support of InSight\u2019s EDL Phase",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 27,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "1.3.5 Post-EDL/Extended Mission Phase",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 29,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "2 MarCO SPACECRAFT OVERVIEW",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 6,
+            "page_index": 32,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "2.1 CubeSat Structure",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 34,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "2.2 Power",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 35,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "2.3 Propulsion",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 37,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "2.4 Attitude Control",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 38,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "2.5 Command and Data Handling",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 39,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "2.6 Payload Cameras",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 40,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "3 TELECOMMUNICATIONS SUBSYSTEM OVERVIEW",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 4,
+            "page_index": 41,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "3.1 X-band for Telecom Subsystem",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 5,
+            "page_index": 43,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "3.1.1 Interfaces",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 44,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "3.1.2 Iris Deep Space Transponder",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 44,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "3.1.3 Solid-State Power Amplifier",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 49,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "3.1.4 Low-Noise Amplifier",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 49,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "3.1.5 Antennas",
+            "level": 3,
+            "is_closed": true,
+            "n_kids": 3,
+            "page_index": 50,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "3.1.5.1 Low-Gain Patch Antennas",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 50,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "3.1.5.2 Medium-Gain Patch Antennas",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 52,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "3.1.5.3 High-Gain Reflectarray Antenna",
+            "level": 4,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 53,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "3.2 UHF for Telecom Subsystem",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 3,
+            "page_index": 57,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "3.2.1 Interfaces",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 57,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "3.2.2 Iris UHF Receiver",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 59,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "3.2.3 UHF Loop Antenna",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 59,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "3.3 Telecom Subsystem Mass and Power",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 61,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "3.4 Post-Delivery Mitigations, Modifications, and Enhancements",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 3,
+            "page_index": 61,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "3.4.1 MarCO UHF EMI Mitigation",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 62,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "3.4.2 MarCO Frame Arbitration Optimization",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 63,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "3.4.3 MarCO Post-Launch Additional Features",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 63,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "4 NEW GROUND SYSTEM TECHNIQUES USED WITH MarCO",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 65,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "4.1 OMSPA Using MSU Ground Station (DSS-17)",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 65,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "4.2 OMSPA Arraying",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 68,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "5 LINK PERFORMANCE ESTIMATES",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 4,
+            "page_index": 70,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "5.1 X-band Uplink",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 70,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "5.2 X-band Downlink",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 73,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "5.3 UHF Return Link",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 77,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "5.4 Channel Frequencies and Bandwidths (Spectrum Allocation)",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 82,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "6 IN-FLIGHT PERFORMANCE",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 7,
+            "page_index": 83,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "6.1 Initial Acquisition",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 3,
+            "page_index": 83,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "6.1.1 MarCO-A Downlink Beeps",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 83,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "6.1.2 MarCO-B Downlink Beeps",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 84,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "6.1.3 Command Uplink",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 85,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "6.2 HGA Calibration",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 85,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "6.3 Cruise",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 87,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "6.4 Bent-Pipe Demonstration",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 90,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "6.5 InSight EDL",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 93,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "6.6 Post-EDL Radio Science",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 98,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "6.7 Mission End",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 99,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "7 LESSONS LEARNED",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 3,
+            "page_index": 100,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "7.1 Lessons from the Development Phase",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 100,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "7.2 Lessons from the Integration and Test Phase",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 101,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "7.3 Lessons from the Operation Phase",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 103,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "8 REFERENCES",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 104,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        },
+        {
+            "title": "9 ABBREVIATIONS, ACRONYMS, AND NOMENCLATURE",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 107,
+            "view_mode": "XYZ",
+            "view_pos": [
+                -190.0,
+                792.0,
+                0.0
+            ]
+        }
+    ],
+    "pages": 113,
+    "ocr_stats": {
+        "ocr_pages": 11,
+        "ocr_failed": 0,
+        "ocr_success": 11,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 40,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}
