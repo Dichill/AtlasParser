@@ -17,7 +17,7 @@ def convert_file(fileobj):
         "./data/" + name,
         "./output/",
         "--batch_multiplier",
-        "2",
+        "5",
         "--langs",
         "English",
     ]
