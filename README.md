@@ -1,5 +1,9 @@
 # Atlas Parser
-improving accuracy for LLMs.
+improving accuracy for LLMs. 
+
+## About
+Uses Marker to convert PDFs into readable formats that is ready to be used for any LLMs. Coded for the LACC Techbootcamp Team Atlas
+
 
 ## Installation
 Install Dependecies *(Recommended to use a virtual environment!)*
@@ -12,9 +16,6 @@ Running the Web Application
 ```
 python main.py
 ```
-
-## Description
-Uses Marker to convert PDFs into readable formats that is ready to be used for any LLMs.
 
 ## Examples
 **MarCO Research Paper**
