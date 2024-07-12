@@ -1,6 +1,18 @@
 # Atlas Parser
 improving accuracy for LLMs.
 
+## Installation
+Install Dependecies *(Recommended to use a virtual environment!)*
+```
+pip -r requirements.txt
+```
+
+## Usage
+Running the Web Application
+```
+python main.py
+```
+
 ## Description
 Uses Marker to convert PDFs into readable formats that is ready to be used for any LLMs.
 
