@@ -2,7 +2,9 @@
 improving accuracy for LLMs. 
 
 ## About
-Uses Marker to convert PDFs into readable formats that is ready to be used for any LLMs. Coded for the LACC Techbootcamp Team Atlas
+Uses Marker to convert PDFs into readable formats that is ready to be used for any LLMs. 
+<br>
+Coded for the LACC Techbootcamp Team Atlas
 
 
 ## Installation
