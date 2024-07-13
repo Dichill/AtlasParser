@@ -1,6 +1,7 @@
+<div align="center">
 ![image](https://github.com/user-attachments/assets/ffbfa706-f467-4564-98c6-964c6c403919)
 <br>improving accuracy for LLMs.
-
+</div>
 ## About
 Uses Marker to convert PDFs into readable formats that is ready to be used for any LLMs. 
 <br>
