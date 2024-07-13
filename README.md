@@ -1,13 +1,10 @@
-# Atlas Parser
-improving accuracy for LLMs.
-
 ![image](https://github.com/user-attachments/assets/ffbfa706-f467-4564-98c6-964c6c403919)
-
+improving accuracy for LLMs.
 
 ## About
 Uses Marker to convert PDFs into readable formats that is ready to be used for any LLMs. 
 <br>
-Coded for the LACC Techbootcamp Team Atlas
+_Coded for the LACC Techbootcamp Team Atlas._
 
 
 ## Installation
