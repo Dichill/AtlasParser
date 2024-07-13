@@ -18,7 +18,7 @@ Firstly, we install **Marker-PDF**
 pip install marker-pdf
 ```
 
-Secondly, since we are using Pytorch, it depends on what operating system you are.<br>
+Secondly, since we are using Pytorch, installation differs depending on what operating system you are currently using.<br>
 Go to [PyTorch](https://pytorch.org/) and find the **Install PyTorch** section.
 ![image](https://github.com/user-attachments/assets/b93efc85-168f-4a41-a3ad-31de126cbc55)
 <br>
