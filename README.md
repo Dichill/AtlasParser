@@ -12,7 +12,10 @@ Uses Marker to convert PDFs into readable formats that is ready to be used for a
 <br>
 _Coded for the LACC Techbootcamp Team Atlas._
 
-## Team
+## Atlas Team
+**Coach**
+- Michael Milano
+**Members**
 - Andrew Peyrot
 - David Cruz
 - Dichill Tomarong
