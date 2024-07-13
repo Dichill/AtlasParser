@@ -12,6 +12,14 @@ Uses Marker to convert PDFs into readable formats that is ready to be used for a
 <br>
 _Coded for the LACC Techbootcamp Team Atlas._
 
+## Team
+- Andrew Peyrot
+- David Cruz
+- Dichill Tomarong
+- Emily Tran
+- Nereyda October Rodriguez
+- Shenell Williams
+- Tooraj Jabbarnia
 
 ## Installation
 Install Dependecies *(Recommended to use a virtual environment!)*
