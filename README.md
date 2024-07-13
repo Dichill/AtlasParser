@@ -15,6 +15,7 @@ _Coded for the LACC Techbootcamp Team Atlas._
 ## Atlas Team
 **Coach**
 - Michael Milano
+<br>
 **Members**
 - Andrew Peyrot
 - David Cruz
