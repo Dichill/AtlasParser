@@ -9,9 +9,17 @@ Coded for the LACC Techbootcamp Team Atlas
 
 ## Installation
 Install Dependecies *(Recommended to use a virtual environment!)*
+
+Firstly, we install **Marker-PDF**
 ```
-pip -r requirements.txt
+pip install marker-pdf
 ```
+
+Secondly, since we are using Pytorch, it depends on what operating system you are.<br>
+Go to [PyTorch](https://pytorch.org/) and find the **Install PyTorch** section.
+![image](https://github.com/user-attachments/assets/b93efc85-168f-4a41-a3ad-31de126cbc55)
+<br>
+Run the given command and you are good to go.
 
 ## Usage
 Running the Web Application
