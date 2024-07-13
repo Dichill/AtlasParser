@@ -6,6 +6,7 @@
 improving accuracy for LLMs.
 
 </div>
+
 ## About
 Uses Marker to convert PDFs into readable formats that is ready to be used for any LLMs. 
 <br>
