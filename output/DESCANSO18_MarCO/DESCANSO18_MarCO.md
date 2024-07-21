@@ -160,7 +160,7 @@ Blank
 | Figure 2-3. MarCO key hardware elements..................................................................................................... 18 |
 | Figure 2-4. Photograph of MarCO's interior taken during integration and test. .......................... 18                                     |
 | Figure 2-5. Exploded view of the MarCO CubeSat centered around the main baseplate. ......... 19                                                 |
-| Figure 2-6. MarCO CubeSat to be installed into the NLAS Mark II dispenser............................... 19                                     |
+| Figure 2-6. MarCO CubeSat to be installed into the NLAS Mark II dispenser................................ 19                                    |
 | Figure 2-7. HaWK solar array deployment steps.                                                                                                  |
 | Figure 2-8. MarCO mission power profile. .                                                                                                      |
 | Figure 2-9. VACCO micro-propulsion system.                                                                                                      |
