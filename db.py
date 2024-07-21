@@ -2,6 +2,7 @@ from json import JSONDecodeError
 from pathlib import Path
 from gradio import json
 from supabase import create_client, Client
+from datetime import datetime
 import os
 
 from dotenv import load_dotenv
@@ -90,20 +91,33 @@ class AtlasDatabase:
     """
 
     def add_decadal_entry(
-        self, decadal_id, title, parsed_by, date_published, date_parsed, source
+        self, decadal_id, title, summary, source, date_published, parsed_by, gr
     ):
-        data = {
-            "decadal_id": decadal_id,
-            "title": title,
-            "parsed_by": parsed_by,
-            "date_published": date_published,
-            "date_parsed": date_parsed,
-            "source": source,
-        }
+        try:
+            date_parsed = datetime.now()
 
-        response = self.supabase.table("Decadals").insert(data).execute()
+            data = {
+                "decadal_id": decadal_id,
+                "title": title,
+                "relevant_summary": summary,
+                "date_published": date_published,
+                "date_parsed": str(date_parsed),
+                "parsed_by": parsed_by,
+                "source": source,
+            }
 
-        if response:
-            print("Entry added successfully")
-        else:
-            print(f"Failed to add entry: {response.data}")
+            response = self.supabase.table("Decadals").insert(data).execute()
+
+            if response:
+                gr.Info("Entry added successfully!")
+                print("Entry added successfully")
+            else:
+                gr.Warning(f"Failed to add entry: {response.data}")
+                print(f"Failed to add entry: {response.data}")
+        except Exception as e:
+            try:
+                error_json = json.loads(str(e))
+                gr.Warning(f"Failed to add entry, {str(error_json['message'])}")
+
+            except JSONDecodeError:
+                gr.Warning(f"Failed to add entry, {str(e)}")

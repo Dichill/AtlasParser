@@ -62,14 +62,24 @@ def process_file(fileobj):
     ]
 
 
-def save_to_db(fileobj):
+def save_to_db(path_to_file, paper_name, summary, source, publication, parsed_by):
     decadal_id = str(uuid.uuid4())
 
-    decadal_path = Path(fileobj).parent
+    decadal_path = Path(path_to_file).parent
     image_files = glob.glob(os.path.join(os.getcwd() + str(decadal_path), "*.png"))
 
     atlasDB.upload_files(
-        os.path.join(os.getcwd() + fileobj), image_files, gr, decadal_id
+        os.path.join(os.getcwd() + path_to_file), image_files, gr, decadal_id
+    )
+
+    atlasDB.add_decadal_entry(
+        decadal_id=decadal_id,
+        title=paper_name,
+        summary=summary,
+        source=source,
+        date_published=publication,
+        parsed_by=parsed_by,
+        gr=gr,
     )
 
 
@@ -110,9 +120,20 @@ with gr.Blocks() as demo:
         auto_summarize = gr.Checkbox(label="Auto Summarize")
         parsed_by = gr.Textbox(label="Atlas Employee")
         source = gr.Textbox(label="Source")
+        publication = gr.Textbox(label="Date Published")
 
         save_to_db_button = gr.Button("Save to Database")
-        save_to_db_button.click(fn=save_to_db, inputs=path_to_file)
+        save_to_db_button.click(
+            fn=save_to_db,
+            inputs=[
+                path_to_file,
+                paper_name,
+                summary,
+                source,
+                publication,
+                parsed_by,
+            ],
+        )
 
     upload_button.upload(
         process_file,
