@@ -4,6 +4,7 @@ import os
 import glob
 import shutil
 import subprocess
+import uuid
 
 import db
 
@@ -36,7 +37,7 @@ def convert_file(fileobj):
         return [
             gr.Textbox(placeholder=f"{name} Successfully converted!"),
             gr.Button(visible=False),
-            gr.Button(visible=True),
+            gr.Group(visible=True),
             gr.Textbox(
                 value="/output/" + name.split(".")[0] + "/" + name.split(".")[0] + ".md"
             ),
@@ -62,22 +63,28 @@ def process_file(fileobj):
 
 
 def save_to_db(fileobj):
-    print(f"Path is {fileobj}")
+    decadal_id = str(uuid.uuid4())
 
     decadal_path = Path(fileobj).parent
-
     image_files = glob.glob(os.path.join(os.getcwd() + str(decadal_path), "*.png"))
 
-    print(image_files)
+    atlasDB.upload_files(
+        os.path.join(os.getcwd() + fileobj), image_files, gr, decadal_id
+    )
 
-    atlasDB.upload_files(os.path.join(os.getcwd() + fileobj), image_files, gr)
 
+css = "#output-container {font-size:0.8rem !important}"
 
 with gr.Blocks() as demo:
+    """
+
+    Uploading Documents and Converting
+
+    """
     gr.Markdown(
         """
-        # Atlas Parser
-        Improving Accuracy for LLMs
+        # Atlas Parser Dashboard
+        Made by <strong>Team Atlas</strong>
         """
     )
     path_to_file = gr.Textbox(visible=False)
@@ -86,9 +93,26 @@ with gr.Blocks() as demo:
     output = gr.Textbox(
         label="Status", placeholder="Waiting for File...", interactive=False
     )
+
     markup_button = gr.Button("Markup", visible=False)
 
-    save_to_db_button = gr.Button("Save to Database", visible=False)
+    db_group = gr.Group(visible=False)
+    with db_group:
+        gr.Markdown(
+            """
+            Database Configuration
+            """
+        )
+        paper_name = gr.Textbox(label="Name")
+        summary = gr.Textbox(
+            label="Relevance Summary",
+        )
+        auto_summarize = gr.Checkbox(label="Auto Summarize")
+        parsed_by = gr.Textbox(label="Atlas Employee")
+        source = gr.Textbox(label="Source")
+
+        save_to_db_button = gr.Button("Save to Database")
+        save_to_db_button.click(fn=save_to_db, inputs=path_to_file)
 
     upload_button.upload(
         process_file,
@@ -99,11 +123,9 @@ with gr.Blocks() as demo:
     markup_button.click(
         fn=convert_file,
         inputs=upload_button,
-        outputs=[output, markup_button, save_to_db_button, path_to_file],
+        outputs=[output, markup_button, db_group, path_to_file],
         api_name="convert_file",
     )
-
-    save_to_db_button.click(fn=save_to_db, inputs=path_to_file)
 
 
 demo.launch()

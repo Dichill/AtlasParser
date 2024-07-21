@@ -1,7 +1,6 @@
 from json import JSONDecodeError
 from pathlib import Path
 from gradio import json
-from huggingface_hub.file_download import uuid
 from supabase import create_client, Client
 import os
 
@@ -28,10 +27,14 @@ class AtlasDatabase:
 
         self.supabase = supabase
 
-    def upload_files(self, paper_file, image_files, gr):
-        try:
-            upload_id = str(uuid.uuid4())
+    """
 
+    Upload the paper & the images to the bucket
+
+    """
+
+    def upload_files(self, paper_file, image_files, gr, upload_id):
+        try:
             # Upload paper to decadal_papers bucket
             if paper_file:
                 paper_filename = os.path.basename(paper_file)
@@ -79,3 +82,28 @@ class AtlasDatabase:
                 gr.Warning(f"An error has occured, {str(e)}")
 
             return None
+
+    """
+
+    Add Decadal Entry
+
+    """
+
+    def add_decadal_entry(
+        self, decadal_id, title, parsed_by, date_published, date_parsed, source
+    ):
+        data = {
+            "decadal_id": decadal_id,
+            "title": title,
+            "parsed_by": parsed_by,
+            "date_published": date_published,
+            "date_parsed": date_parsed,
+            "source": source,
+        }
+
+        response = self.supabase.table("Decadals").insert(data).execute()
+
+        if response:
+            print("Entry added successfully")
+        else:
+            print(f"Failed to add entry: {response.data}")
