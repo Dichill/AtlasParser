@@ -6,8 +6,6 @@ import shutil
 import subprocess
 import uuid
 
-import db
-
 # Initialize AtlasDatabase
 # atlasDB = db.AtlasDatabase()
 
@@ -37,7 +35,6 @@ def convert_file(fileobj):
         return [
             gr.Textbox(placeholder=f"{name} Successfully converted!"),
             gr.Button(visible=False),
-            gr.Group(visible=True),
             gr.Textbox(
                 value="/output/" + name.split(".")[0] + "/" + name.split(".")[0] + ".md"
             ),
@@ -105,34 +102,34 @@ with gr.Blocks() as demo:
 
     markup_button = gr.Button("Markup", visible=False)
 
-    db_group = gr.Group(visible=False)
-    with db_group:
-        gr.Markdown(
-            """
-            Database Configuration
-            """
-        )
-        paper_name = gr.Textbox(label="Name")
-        summary = gr.Textbox(
-            label="Relevance Summary",
-        )
-        auto_summarize = gr.Checkbox(label="Auto Summarize")
-        parsed_by = gr.Textbox(label="Atlas Employee")
-        source = gr.Textbox(label="Source")
-        publication = gr.Textbox(label="Date Published")
+    # db_group = gr.Group(visible=False)
+    # with db_group:
+    #     gr.Markdown(
+    #         """
+    #         Database Configuration
+    #         """
+    #     )
+    #     paper_name = gr.Textbox(label="Name")
+    #     summary = gr.Textbox(
+    #         label="Relevance Summary",
+    #     )
+    #     auto_summarize = gr.Checkbox(label="Auto Summarize")
+    #     parsed_by = gr.Textbox(label="Atlas Employee")
+    #     source = gr.Textbox(label="Source")
+    #     publication = gr.Textbox(label="Date Published")
 
-        save_to_db_button = gr.Button("Save to Database")
-        save_to_db_button.click(
-            fn=save_to_db,
-            inputs=[
-                path_to_file,
-                paper_name,
-                summary,
-                source,
-                publication,
-                parsed_by,
-            ],
-        )
+    #     save_to_db_button = gr.Button("Save to Database")
+    #     save_to_db_button.click(
+    #         fn=save_to_db,
+    #         inputs=[
+    #             path_to_file,
+    #             paper_name,
+    #             summary,
+    #             source,
+    #             publication,
+    #             parsed_by,
+    #         ],
+    #     )
 
     upload_button.upload(
         process_file,
@@ -143,7 +140,7 @@ with gr.Blocks() as demo:
     markup_button.click(
         fn=convert_file,
         inputs=upload_button,
-        outputs=[output, markup_button, db_group, path_to_file],
+        outputs=[output, markup_button, path_to_file],
         api_name="convert_file",
     )
 
