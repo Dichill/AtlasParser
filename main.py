@@ -9,7 +9,7 @@ import uuid
 import db
 
 # Initialize AtlasDatabase
-atlasDB = db.AtlasDatabase()
+# atlasDB = db.AtlasDatabase()
 
 
 def convert_file(fileobj):
@@ -63,24 +63,23 @@ def process_file(fileobj):
 
 
 def save_to_db(path_to_file, paper_name, summary, source, publication, parsed_by):
-    decadal_id = str(uuid.uuid4())
-
+    # decadal_id = str(uuid.uuid4())
     decadal_path = Path(path_to_file).parent
-    image_files = glob.glob(os.path.join(os.getcwd() + str(decadal_path), "*.png"))
+    # image_files = glob.glob(os.path.join(os.getcwd() + str(decadal_path), "*.png"))
 
-    atlasDB.upload_files(
-        os.path.join(os.getcwd() + path_to_file), image_files, gr, decadal_id
-    )
+    # atlasDB.upload_files(
+    #     os.path.join(os.getcwd() + path_to_file), image_files, gr, decadal_id
+    # )
 
-    atlasDB.add_decadal_entry(
-        decadal_id=decadal_id,
-        title=paper_name,
-        summary=summary,
-        source=source,
-        date_published=publication,
-        parsed_by=parsed_by,
-        gr=gr,
-    )
+    # atlasDB.add_decadal_entry(
+    #     decadal_id=decadal_id,
+    #     title=paper_name,
+    #     summary=summary,
+    #     source=source,
+    #     date_published=publication,
+    #     parsed_by=parsed_by,
+    #     gr=gr,
+    # )
 
 
 css = "#output-container {font-size:0.8rem !important}"
